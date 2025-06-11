@@ -4,27 +4,23 @@ A feature-rich, responsive dashboard application built with Next.js and Tailwind
 
 ---
 
-### 🚀 **Live Demo:** [https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/](https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/)
+### 🚀 **Live demo:** [https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/](https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/)
 
 ---
 
 ## 📸 Screenshots
 
-| Login Page | Light Mode |
+| Login Page & Light Mode | Dark Mode |
 | :---: | :---: |
-| ![Login Page](public/photos/login.png) | ![Dashboard Light Mode](public/photos/dashboardlight.png) |
+| ![Login Page](photos/Login-Page.png) | ![Dashboard Dark Mode](photos/dashboard-dark.png) |
 
-| Dark Mode | Admin Analytics |
+| Admin Analytics & Payouts | Exported PDF Report |
 | :---: | :---: |
-| ![Dashboard Dark Mode](public/photos/dashboarddark.png) | ![Admin News Analytics](public/photos/adminanalytics.png) |
+| ![Admin News Analytics](photos/admin-News-Analytics-Charts.png) | ![Downloaded PDF Report](photos/downloaded-pdf.png) |
 
-| Payout Calculator | Exported PDF |
+| Mobile Responsive View 1 | Mobile Responsive View 2 |
 | :---: | :---: |
-| ![Admin Payout Calculator](public/photos/adminpayout.png) | ![PDF Report Screenshot](public/photos/reportpdf.png) |
-
-| Mobile Responsive View |
-| :---: |
-| ![Mobile View](public/photos/mobile1.png) |
+| ![Mobile View 1](photos/mobile-view-1.png) | ![Mobile View 2](photos/mobile-view-2.png) |
 
 ---
 
