@@ -4,7 +4,7 @@ A feature-rich, responsive dashboard application built with Next.js and Tailwind
 
 ---
 
-### 🚀 **Live demo:** [https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/](https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/)
+### 🚀 **Live Demo:** [https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/](https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/)
 
 ---
 
