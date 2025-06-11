@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 
 const PayoutCalculator = ({ articles }) => {
@@ -21,12 +21,8 @@ const PayoutCalculator = ({ articles }) => {
             localStorage.setItem('payoutRate', payoutRate);
         }
     }, [payoutRate, isAdmin]);
-    
-    useEffect(() => {
-        calculatePayouts();
-    }, [articles, payoutRate]);
 
-    const calculatePayouts = () => {
+    const calculatePayouts = useCallback(() => {
         const counts = articles.reduce((acc, article) => {
             const author = article.author || 'Unknown Author';
             acc[author] = (acc[author] || 0) + 1;
@@ -39,8 +35,12 @@ const PayoutCalculator = ({ articles }) => {
             payout: (count * payoutRate).toFixed(2),
         }));
         setAuthorPayouts(payouts);
-    };
-    
+    }, [articles, payoutRate]);
+
+    useEffect(() => {
+        calculatePayouts();
+    }, [calculatePayouts]);
+
     const loadScript = (src) => {
         return new Promise((resolve, reject) => {
             if (document.querySelector(`script[src="${src}"]`)) return resolve();
