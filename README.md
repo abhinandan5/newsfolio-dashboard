@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NewsFolio News and Payout Dashboard
 
-## Getting Started
+A feature-rich, responsive dashboard application built with Next.js and Tailwind CSS. This project serves as a comprehensive solution for viewing, filtering, and analyzing news articles, with special administrative features for calculating and exporting author payouts.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### **Live Demo:** `https://your-project-name.vercel.app` 
+*(Replace this with your Vercel link after deploying!)*
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **User Authentication:** Secure mock login system distinguishing between 'Admin' and 'User' roles.
+- **Dynamic News Feed:** Fetches and displays the latest articles from a live news API.
+- **Offline-First Experience:** Uses **IndexedDB** to cache articles, allowing the app to be fully functional even without an internet connection.
+- **Advanced Filtering & Search:** Filter articles by author, date range, or search globally by keyword.
+- **Admin Dashboard:**
+    - **Payout Calculator:** Admins can set a per-article payout rate (stored in `localStorage`) to automatically calculate author earnings.
+    - **Data Analytics:** Visual charts (Bar and Pie) provide insights into article distribution by author.
+- **Data Export:** Admins can export detailed payout reports in **PDF** and **CSV** formats.
+- **Modern UI/UX:**
+    - Fully responsive design for both mobile and desktop.
+    - Seamless Light/Dark mode toggle.
+- **Performance Optimized:** Leverages Next.js features like the `<Image>` component for high performance and excellent Lighthouse scores.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 14+ (App Router)
+- **Styling:** Tailwind CSS
+- **State Management:** React Context API
+- **Data Fetching:** Native Fetch API
+- **Offline Storage:** IndexedDB
+- **Charts:** Recharts
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project on your local machine, follow these steps:
 
-## Deploy on Vercel
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/responsive-dashboard.git](https://github.com/your-username/responsive-dashboard.git)
+    cd responsive-dashboard
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+### Test Credentials
+
+- **Admin:** `admin@demo.com` / `admin123`
+- **User:** `user@demo.com` / `password`
