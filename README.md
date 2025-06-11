@@ -4,8 +4,23 @@ A feature-rich, responsive dashboard application built with Next.js and Tailwind
 
 ---
 
-### 🚀 **Live Demo:** [https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/](https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/)
+### 🚀 **Live demo:** [https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/](https://newsfolio-dashboard-git-main-abhinandan5s-projects.vercel.app/)
 
+---
+
+## 📸 Screenshots
+
+| Login Page & Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Login Page](photos/Login-Page.png) | ![Dashboard Dark Mode](photos/dashboard-dark.png) |
+
+| Admin Analytics & Payouts | Exported PDF Report |
+| :---: | :---: |
+| ![Admin News Analytics](photos/admin-News-Analytics-Charts.png) | ![Downloaded PDF Report](photos/downloaded-pdf.png) |
+
+| Mobile Responsive View 1 | Mobile Responsive View 2 |
+| :---: | :---: |
+| ![Mobile View 1](photos/mobile-view-1.png) | ![Mobile View 2](photos/mobile-view-2.png) |
 
 ---
 
@@ -54,7 +69,7 @@ To run this project on your local machine, follow these steps:
     npm install
     ```
 3.  **Create your local environment file:**
-    Create a file named `.env.local` in the root of the project and add your NewsAPI key:
+    Create a file named `.env.local` in the root of the project and add your NewsAPI key. The key must be prefixed with `NEXT_PUBLIC_`.
     ```
     NEXT_PUBLIC_NEWS_API_KEY=your_api_key_here
     ```
