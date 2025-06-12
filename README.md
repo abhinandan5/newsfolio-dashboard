@@ -10,17 +10,21 @@ A feature-rich, responsive dashboard application built with Next.js and Tailwind
 
 ## 📸 Screenshots
 
-| Login Page & Light Mode | Dark Mode |
+| Login Page | Light Mode |
 | :---: | :---: |
-| ![Login Page](photos/Login-Page.png) | ![Dashboard Dark Mode](photos/dashboard-dark.png) |
+| ![Login Page](public/images/Login-Page.png) | ![Dashboard Light Mode](public/images/dashboard-light.png) |
 
-| Admin Analytics & Payouts | Exported PDF Report |
+| Dark Mode | Admin Analytics |
 | :---: | :---: |
-| ![Admin News Analytics](photos/admin-News-Analytics-Charts.png) | ![Downloaded PDF Report](photos/downloaded-pdf.png) |
+| ![Dashboard Dark Mode](public/images/dashboard-dark.png) | ![Admin News Analytics](public/images/admin-News-Analytics-Charts.png) |
 
-| Mobile Responsive View 1 | Mobile Responsive View 2 |
+| Payout Calculator | Exported PDF |
 | :---: | :---: |
-| ![Mobile View 1](photos/mobile-view-1.png) | ![Mobile View 2](photos/mobile-view-2.png) |
+| ![Admin Payout Calculator](public/images/admin-payout-calculator-1.png) | ![Downloaded PDF Report](public/images/downloaded-pdf.png) |
+
+| Mobile Responsive View |
+| :---: |
+| ![Mobile View 1](public/images/mobile-view-1.png) |
 
 ---
 

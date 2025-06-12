@@ -9,7 +9,7 @@ export const DB_VERSION = 1;
 export const STORE_NAME = 'articles';
 
 // For News API
-export const NEWS_API_URL = `https://newsapi.org/v2/everything?q=technology&sortBy=publishedAt&apiKey=${process.env.NEXT_PUBLIC_NEWS_API_KEY}&pageSize=50`;
+export const NEWS_API_URL = '/api/news';
 
 // For Mock Authentication
 export const MOCK_USERS = {
